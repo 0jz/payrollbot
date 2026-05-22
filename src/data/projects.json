@@ -1,0 +1,73 @@
+{
+  "ecommerce-checkout": {
+    "id": "ecommerce-checkout",
+    "name": "E-commerce Checkout Redesign",
+    "clientEmail": "client@acmecorp.com",
+    "freelancerEmail": "ana.petrovic@gmail.com",
+    "freelancerName": "Ana Petrovic",
+    "walletAddress": "REPLACE_WITH_DEVNET_WALLET",
+    "hourlyRate": 45,
+    "agreedBudget": 2000,
+    "currency": "USD",
+    "status": "active",
+    "requirements": [
+      "Shopping cart state persists between page reloads (localStorage or equivalent)",
+      "Payment form integrates Stripe Elements — card number, expiry, CVV fields present",
+      "Checkout flow is fully responsive on mobile (320px+) and desktop",
+      "Order confirmation email is sent automatically after successful payment",
+      "Loading/spinner states appear on all async operations (add to cart, checkout button)",
+      "Form validation shows inline errors before submission",
+      "HTTPS enforced — no mixed content warnings"
+    ],
+    "submittedAt": null,
+    "lastQAResult": null
+  },
+
+  "api-backend": {
+    "id": "api-backend",
+    "name": "REST API Backend",
+    "clientEmail": "cto@startup.io",
+    "freelancerEmail": "marko.jovanovic@gmail.com",
+    "freelancerName": "Marko Jovanovic",
+    "walletAddress": "REPLACE_WITH_DEVNET_WALLET",
+    "hourlyRate": 65,
+    "agreedBudget": 3500,
+    "currency": "USD",
+    "status": "active",
+    "requirements": [
+      "REST API with at least: GET /users, POST /users, GET /users/:id, PUT /users/:id, DELETE /users/:id",
+      "JWT authentication on all protected routes",
+      "Request validation with descriptive error messages (400 for bad input)",
+      "PostgreSQL database with migrations — no raw SQL string concatenation",
+      "Rate limiting: max 100 requests/minute per IP",
+      "API documentation available at /docs (Swagger or equivalent)",
+      "Unit tests with at least 70% coverage on business logic"
+    ],
+    "submittedAt": null,
+    "lastQAResult": null
+  },
+
+  "landing-page": {
+    "id": "landing-page",
+    "name": "SaaS Landing Page",
+    "clientEmail": "founder@saas.co",
+    "freelancerEmail": "jelena.markovic@gmail.com",
+    "freelancerName": "Jelena Markovic",
+    "walletAddress": "REPLACE_WITH_DEVNET_WALLET",
+    "hourlyRate": 55,
+    "agreedBudget": 1200,
+    "currency": "USD",
+    "status": "active",
+    "requirements": [
+      "Hero section with headline, subheadline, and CTA button above the fold",
+      "Features section with at least 3 feature cards",
+      "Pricing section with at least 2 tiers, monthly/annual toggle",
+      "Email capture form connected to Mailchimp or equivalent",
+      "Lighthouse performance score above 90 on mobile",
+      "Cookie consent banner present",
+      "All links and CTAs are functional — no placeholder hrefs"
+    ],
+    "submittedAt": null,
+    "lastQAResult": null
+  }
+}
