@@ -1,5 +1,7 @@
 # PayrollBot
 
+[![CI](https://github.com/0jz/payrollbot/actions/workflows/ci.yml/badge.svg)](https://github.com/0jz/payrollbot/actions/workflows/ci.yml)
+
 An autonomous AI payroll agent for teams that pay freelancers: it reads timesheet and project-submission emails from Gmail, checks them with Claude, and pays out in SOL on Solana devnet — with a human approval gate for anything large.
 
 Built at the [Startit.rs Money Agent Hackathon](https://startit.rs).
